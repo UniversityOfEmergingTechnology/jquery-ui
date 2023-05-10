@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./jquery-ui-1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="./jquery-ui-1.13.2/jquery-ui.css"> -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+</head>
+<body>
+     <!-- datepicker -->
+     <!-- <label for="date">Date : </label>
+    <input type="text" id="date"> -->
+    <!-- <a href="#" class="ac" title="My name is mudit and this is tooltip widget using jquery ui">Tootlip Demo : </a> -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum aperiam accusantium quasi eaque, inventore temporibus placeat quas illum eligendi, cumque repudiandae rerum aliquid hic!</p> -->
+    <!-- tooltip -->
+
+    <!-- accordian -->
+
+        <div id="accordian">
+            <h3>Section 1</h3>
+            <div>
+                This is my content for section 1
+            </div>
+            <h3>Section 2</h3>
+            <div>
+                This is my content for section 2
+            </div>
+            <h3>Section 3</h3>
+            <div>
+                This is my content for section 3
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                // jquery code
+                // $('#date').datepicker({
+                //     dateFormat:"mm-yy-dd"
+                // })
+                // $('.ac').tooltip();
+    
+                $( "#accordian" ).accordion();
+            })
+         </script>
+
+</body>
+</html>
